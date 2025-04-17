@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>User input</title>
+	<style>
+		body{
+			background-color: powderblue;
+
+	}
+		div{
+			background-color: rgb(140,240,240);
+			width: 75%;
+			margin: auto;
+			padding: 20px; 
+	}
+	</style>
+</head>
+<body>
+	<div>
+		<h1>Registration</h1>
+		<form action="UserReg.php">
+			<fieldset><legend>User Registration</legend>
+				<label for="UserName">Name : <input type="text" name="UserName" id="UserName"></label><br><br>
+				<label for="Password">Password : <input type="password" name="Password" id="password"></label><br><br>
+				<label for="ConPass">Confirm Password : <input type="password" name="ConPass" id="conPass"></label><br><br>
+				<label for="mobileNo">mobile No. : <input type="number" name="MobileNo" id="mobileNo"></label><br><br>
+				<label for="Email">Email : <input type="Email" name="Email" id="Email"></label><br><br>
+				<input type="submit" name="registration" value="register">
+			</fieldset>
+		</form>	
+		<h1>User Login</h1>
+		<form>
+			<fieldset><legend>User login</legend>
+				<label for="UserName">Name : <input type="text" name="UserName" id="UserName"></label><br><br>
+				<label for="Upass">password : <input type="password" name="password" id="password"></label><br><br>
+				<input type="submit" name="Login" value="Login">
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>
